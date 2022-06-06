@@ -1,0 +1,27 @@
+nav li{
+    list-style: none;
+    display: flex;
+    font-size: 19px;
+    font-weight: bold;
+    
+}
+
+nav button{
+    border: 0;
+    background-color: inherit;
+    font-weight: bold;
+    color: rgb(175, 173, 173)
+}
+
+.prevGrey{
+    display: none;
+}
+
+.prev{
+    color: black;
+    cursor: pointer;
+}
+
+.nextGrey{
+    display: none;
+}

@@ -1,0 +1,71 @@
+
+.mob_body{
+position:relative;
+left:30px;
+    
+    }
+
+
+.close{
+    position: absolute;
+    top:0;
+    right: 40px;
+    color:black;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+
+.mob_category{
+
+}
+
+#mob_categoryLabel{
+    padding-bottom: 20px;
+    color:#656565;
+    font-size: 14px;
+    
+  }
+
+  .mob_dividerLine{
+    width: 50%;
+    height: 2px;
+    background-color: #656565;
+    margin-top: 20px;
+  }
+
+
+  .mob_priceRange #mob_priceLabel{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color:#656565;
+    font-size: 14px;
+  }
+  
+  .mob_priceRange #mob_priceLabel label{
+    margin-bottom: 20px;
+   
+  }
+
+  .buttons{
+      position: relative;
+      top: 100px; 
+      display: flex;
+      
+  }
+
+  .clear, .save{
+     border:2px solid black;
+     padding: 0 20px;
+     margin:10px;
+     font-size: 14px;
+
+  }
+
+  .clear:hover,.save:hover{
+    background-color: black;
+    color: white;
+
+ }
